@@ -1,0 +1,57 @@
+<html>
+<head>
+<link rel="stylesheet" href='mystyle.css'>
+<title>Stream</title>
+</head>
+<body>
+<h1>Nelson's streaming site</h1>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="https://www.spotify.com" style='color:green;'>Spotify</a>
+  <a href="https://music.apple.com" style='color:pink;'>Apple Music</a>
+  <a href="https://www.deezer.com" style='color:purple;'>Deezer</a>
+  <a href="https://www.youtube.com" style='color:red;'>Youtube</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+<div id='main'>
+<table class='center'>
+<tr>
+<td><a href="https://open.spotify.com/album/6HwzIlrCDq3WF9vMq8meqG"><img src="aart1.jpg" alt="Santan Dave"></a></td>
+<td><a href="https://open.spotify.com/album/0DB01cPUt66gHPLL1JcdQq"><img src="aart2.jpg" alt="Sia"></a></td>
+<td><a href="https://open.spotify.com/album/6tkjU4Umpo79wwkgPMV3nZ"><img src="aart3.jpg" alt="Juice Wrld"></a></td>
+</tr>
+<tr>
+<td><b>Santan Dave</b></td>
+<td><b>Sia</b></td>
+<td><b>Juice Wrld</b></td>
+</tr>
+<br>
+<tr>
+<td><a href="https://open.spotify.com/album/4VzzEviJGYUtAeSsJlI9QB"><img src="aart4.jpg" alt="Portugal. The man"></a></td>
+<td><a href="https://open.spotify.com/album/06KRobP4coZ4I6Kfgxb1FV"><img src="aart5.jpg" alt="Dej Loaf"></a></td>
+<td><a href="https://open.spotify.com/album/4nwd6ernojhNIIRifDJoRz"><img src="aart6.jpg" alt="YG"></a></td>
+</tr>
+<tr>
+<td><b>Portugal. The man</b></td>
+<td><b>Dej Loaf</b></td>
+<td><b>YG</b></td>
+</tr>
+</table>
+</div>
+<script>(function(d){var s = d.createElement("script");s.setAttribute("data-account", "wEvaLsAHpU");s.setAttribute("src", "https://cdn.userway.org/widget.js");(d.body || d.head).appendChild(s);})(document)</script><noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org">website accessibility</a></noscript>
+</body>
+</html>
